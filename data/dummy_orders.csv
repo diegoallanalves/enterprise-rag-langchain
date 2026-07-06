@@ -1,0 +1,13 @@
+PO_Number,Order_Date,Customer_ID,Customer_Name,Product_ID,Product_Name,Quantity_Ordered,Region,Salesperson,Order_Status
+PO1001,2026-01-03,C001,Amazon Ltd,P001,Laptop Pro 14,12,South East,Ana Silva,Confirmed
+PO1001,2026-01-03,C001,Amazon Limited,P001,Laptop Pro 14,12,South East,Ana Silva,Confirmed
+PO1002,2026-01-05,C002,Google Brazil,P002,Monitor 27,8,South,Bruno Costa,Confirmed
+PO1003,2026-01-08,C003,Microsoft Ltd,P003,Keyboard RGB,42,South East,Carla Souza,Confirmed
+PO1004,2026-01-10,C004,Meta Platforms,P004,Wireless Mouse,30,North East,Diego Alves,Confirmed
+PO1005,2026-01-11,C005,IBM Corporation,P005,Server Rack,7,South,Ana Silva,Confirmed
+PO1005,2026-01-11,C005,IBM Corp,P005,Server Rack,7,South,Ana Silva,Confirmed
+PO1006,2026-01-14,C006,Apple Incorporated,P006,Tablet Air,18,North,Bruno Costa,Confirmed
+PO1007,2026-01-15,C007,Netflix Brazil,P007,Headset Pro,65,South East,Carla Souza,Confirmed
+PO1008,2026-01-18,C008,,P008,USB-C Dock,10,South,Diego Alves,Pending Review
+PO1009,2026-01-20,C009,Tesla Energy,P009,Smart Sensor,120,North East,Ana Silva,Confirmed
+PO1010,2026-01-22,C010,Oracle Brazil,P010,Cloud Router,9,South East,Bruno Costa,Confirmed

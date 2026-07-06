@@ -1,0 +1,10 @@
+Business Data Quality Policy
+
+Each PO number should represent one unique purchase order.
+The same PO number should not contain conflicting customer names.
+If different customer names appear for the same PO number, the record must be reviewed.
+Quantity ordered must not be higher than current stock.
+Orders exceeding stock availability should be flagged as inventory risk.
+Missing customer names must be corrected before financial reporting.
+Customer names should be standardized using a master customer reference table.
+AI-generated recommendations must be reviewed by a human analyst before action is taken.

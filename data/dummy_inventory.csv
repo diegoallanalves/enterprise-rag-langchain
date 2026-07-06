@@ -1,0 +1,11 @@
+Product_ID,Product_Name,Current_Stock,Reorder_Level,Warehouse,Supplier,Unit_Cost
+P001,Laptop Pro 14,20,5,WH-SP,TechSupply,850
+P002,Monitor 27,15,5,WH-PR,ScreenWorld,220
+P003,Keyboard RGB,30,10,WH-SP,InputMax,45
+P004,Wireless Mouse,100,20,WH-BA,InputMax,22
+P005,Server Rack,4,2,WH-PR,InfraCorp,1200
+P006,Tablet Air,25,8,WH-AM,MobileHub,330
+P007,Headset Pro,40,15,WH-SP,AudioPlus,75
+P008,USB-C Dock,50,10,WH-PR,ConnectLab,55
+P009,Smart Sensor,80,20,WH-BA,IoTSupply,18
+P010,Cloud Router,12,4,WH-SP,NetPro,310
