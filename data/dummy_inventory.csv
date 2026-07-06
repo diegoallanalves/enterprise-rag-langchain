@@ -1,11 +1,18 @@
-Product_ID,Product_Name,Current_Stock,Reorder_Level,Warehouse,Supplier,Unit_Cost
-P001,Laptop Pro 14,20,5,WH-SP,TechSupply,850
-P002,Monitor 27,15,5,WH-PR,ScreenWorld,220
-P003,Keyboard RGB,30,10,WH-SP,InputMax,45
-P004,Wireless Mouse,100,20,WH-BA,InputMax,22
-P005,Server Rack,4,2,WH-PR,InfraCorp,1200
-P006,Tablet Air,25,8,WH-AM,MobileHub,330
-P007,Headset Pro,40,15,WH-SP,AudioPlus,75
-P008,USB-C Dock,50,10,WH-PR,ConnectLab,55
-P009,Smart Sensor,80,20,WH-BA,IoTSupply,18
-P010,Cloud Router,12,4,WH-SP,NetPro,310
+Product_ID,Product_Name,Current_Stock,Reorder_Level,Warehouse,Supplier,Unit_Cost,Next_Month_Promotion,Next_Month_Supply_Status,Restock_Date,Promotion_Notes
+P001,Laptop Pro 14,20,5,WH-SP,TechSupply,850,No,Normal,2026-02-05,Standard replenishment
+P002,Monitor 27,15,5,WH-PR,ScreenWorld,220,No,Normal,2026-02-04,Standard replenishment
+P003,Keyboard RGB,30,10,WH-SP,InputMax,45,No,Normal,2026-02-08,Standard replenishment
+P004,Wireless Mouse,100,20,WH-BA,InputMax,22,No,Normal,2026-02-03,Standard replenishment
+P005,Server Rack,4,2,WH-PR,InfraCorp,1200,No,Restricted,2026-02-18,Low supplier availability
+P006,Tablet Air,25,8,WH-AM,MobileHub,330,No,Normal,2026-02-06,Standard replenishment
+P007,Headset Pro,40,15,WH-SP,AudioPlus,75,Yes,Restricted,2026-03-02,Next month promotion requires protected stock
+P008,USB-C Dock,50,10,WH-PR,ConnectLab,55,No,Normal,2026-02-04,Standard replenishment
+P009,Smart Sensor,80,20,WH-BA,IoTSupply,18,Yes,Restricted,2026-03-05,Promotion stock is constrained until March
+P010,Cloud Router,12,4,WH-SP,NetPro,310,No,Normal,2026-02-10,Standard replenishment
+P011,Promo Tablet Bundle,30,20,WH-SP,MobileHub,410,Yes,Restricted,2026-03-12,Next month promotion stock must be protected
+P012,Enterprise Docking Station,60,15,WH-PR,ConnectLab,95,No,Normal,2026-02-09,Standard replenishment
+P013,Noise Cancelling Headphones,20,12,WH-AM,AudioPlus,140,Yes,Restricted,2026-02-28,Promotion allocation already reserved
+P014,Workstation Ultra,5,3,WH-BA,TechSupply,1650,No,Restricted,2026-02-25,Limited supplier allocation
+P015,Education Laptop 13,70,25,WH-SP,EduTechSupply,620,Yes,Restricted,2026-03-15,Back-to-school promotion supply is limited
+P016,Smart Display Hub,35,10,WH-PR,IoTSupply,125,Yes,Normal,2026-02-16,Promotion planned but supply is stable
+P017,Gaming Monitor 32,28,8,WH-AM,ScreenWorld,360,No,Normal,2026-02-11,Standard replenishment

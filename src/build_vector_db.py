@@ -17,7 +17,11 @@ def create_documents():
             f"PO {row['PO_Number']} customer {row['Customer_Name']} ordered "
             f"{row['Quantity_Ordered']} units of {row['Product_Name']}. "
             f"Current stock is {row['Current_Stock']}. "
-            f"Order status is {row['Order_Status']}. Region is {row['Region']}."
+            f"Order status is {row['Order_Status']}. Region is {row['Region']}. "
+            f"Next month promotion is {row['Next_Month_Promotion']}. "
+            f"Next month supply status is {row['Next_Month_Supply_Status']}. "
+            f"Restock date is {row['Restock_Date']}. "
+            f"Promotion notes: {row['Promotion_Notes']}."
         )
         documents.append(Document(page_content=text, metadata={"source": "sales_record", "po_number": row["PO_Number"]}))
     return documents

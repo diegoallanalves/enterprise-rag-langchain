@@ -10,6 +10,7 @@ GitHub-ready portfolio project using dummy business data, LangChain, ChromaDB, O
 - GPT response generation
 - Streamlit web app
 - Data quality checks on sales and inventory data
+- Promotion supply risk checks for next-month campaigns
 
 ## Setup
 
@@ -48,3 +49,5 @@ streamlit run app/streamlit_app.py
 ## Interview explanation
 
 I built a RAG assistant using LangChain, ChromaDB, OpenAI embeddings, GPT, and Streamlit. It uses dummy sales, inventory, and policy data. The system retrieves relevant business context, runs deterministic data quality checks, and uses an LLM to generate clear recommendations. This demonstrates how LLMs can be connected to enterprise data safely without fine-tuning.
+
+The project also includes a promotion supply scenario. If an item is part of a next-month promotion and supply is restricted, the app flags the order for supply planning review. If there is both a stock shortage and a promotion supply restriction, the order becomes High risk and should not be approved until stock is replenished or allocation is confirmed.

@@ -5,6 +5,12 @@ The same PO number should not contain conflicting customer names.
 If different customer names appear for the same PO number, the record must be reviewed.
 Quantity ordered must not be higher than current stock.
 Orders exceeding stock availability should be flagged as inventory risk.
+Orders for products included in next month promotions require additional supply review.
+If a product has a next month promotion and the next month supply status is Restricted, the order must be protected from over-commitment.
+If a promotional product also has a stock shortage, the order is High risk.
+High risk promotional shortage orders cannot be approved until stock is replenished or the supply planning team confirms the allocation.
+If promotion stock is reserved for next month, sales orders should not consume that stock without manager approval.
+Restock date and promotion notes should be used to explain why an order cannot be fulfilled immediately.
 Missing customer names must be corrected before financial reporting.
 Customer names should be standardized using a master customer reference table.
 AI-generated recommendations must be reviewed by a human analyst before action is taken.
